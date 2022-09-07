@@ -3,6 +3,7 @@ name = "static-noise"
 authors = ["Michael van Straten"]
 description = "A simple crate for generation static noise at compile time."
 repository = "https://github.com/michaelvanstraten/static-noise"
+documentation = "https://docs.rs/static-noise/"
 license = "MIT"
 version = "0.1.0"
 edition = "2021"
