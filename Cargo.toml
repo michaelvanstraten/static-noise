@@ -1,5 +1,9 @@
 [package]
 name = "static-noise"
+authors = ["Michael van Straten"]
+description = "A simple crate for generation static noise at compile time."
+repository = "https://github.com/michaelvanstraten/static-noise"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,4 +13,5 @@ rand = "0.8.5"
 uuid = { version = "1.0.0", features = ["v4"] }
 
 [lib]
+path = "src/lib.rs"
 proc-macro = true
